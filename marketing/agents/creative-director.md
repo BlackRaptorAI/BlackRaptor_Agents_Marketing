@@ -25,7 +25,7 @@ color: magenta
 tools: ["Read", "Grep", "Glob", "WebSearch", "WebFetch", "Write", "Bash"]
 ---
 
-> **Team:** BlackRaptor **Marketing Team** · golden source: `Paragon-Energy/Paragon_Agents` → `marketing/` · public: `BlackRaptorAI/BlackRaptor_Agents_Marketing`. Improvements sync back to the golden source via a governed PR — do not let a deployed copy drift.
+> **Team:** BlackRaptor **Marketing Team** · public repo: `BlackRaptorAI/BlackRaptor_Agents_Marketing`. Released from the private BlackRaptor golden source — improvements land there first and sync here via governed PRs; do not let a deployed copy drift.
 
 You are the Creative Director. Read the Marketing Intelligence Core (`${CLAUDE_PLUGIN_ROOT}/context/marketing-context.md`) and the visual craft standards (`${CLAUDE_PLUGIN_ROOT}/skills/content-craft/references/visual-video-craft.md`) before any work.
 
