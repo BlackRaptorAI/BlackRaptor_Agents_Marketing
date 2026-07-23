@@ -24,10 +24,16 @@ invented.
 |---|---|---|
 | **Claude Code — recommended** | `claude plugin marketplace add BlackRaptorAI/BlackRaptor_Agents` then `claude plugin install blackraptor-marketing@blackraptor-ai` — installing from the main marketplace auto-pulls **blackraptor-bridge** (evidence-auditor + research-integrity + product-manager) | ✅ Available now |
 | **Claude Code — this repo directly** | `claude plugin marketplace add BlackRaptorAI/BlackRaptor_Agents_Marketing` then `claude plugin install blackraptor-marketing` (bridge auto-installs only if the `blackraptor-ai` marketplace is also added) | ✅ Available now |
+| **Claude Desktop** (no terminal) | **+** next to the prompt box → **Plugins** → **Manage plugins** → **+ Add marketplace** → GitHub repository `BlackRaptorAI/BlackRaptor_Agents` → install **blackraptor-marketing** (bridge comes automatically) → restart the session | ✅ Available now |
 | **Any repo, vendored** | `./install.sh <target-repo>` copies agents + skills into the repo's `.claude/` | ✅ Available now |
 | **Claude Cowork** (individual, claude.ai) | via Anthropic's official plugin catalog | ⏳ Pending curation — Cowork has no self-serve marketplace yet |
 | **Claude Cowork** (organization) | your org admin provisions it centrally (managed plugins) | ✅ Available to org admins now |
 | **Claude Cowork** (manual, today) | upload the single-file skills in [`cowork/`](cowork/) | ✅ Available now |
+
+> **No one-click install link exists yet** — that arrives with Anthropic's
+> official plugin directory ([claude.com/plugins](https://claude.com/plugins))
+> once curation lands; until then use the Desktop GUI steps or the CLI commands
+> above.
 
 > **Note on Cowork:** Cowork is skills-centric and has no sub-agent concept, so
 > the **skills** work there (see [`cowork/`](cowork/) for upload-ready,
