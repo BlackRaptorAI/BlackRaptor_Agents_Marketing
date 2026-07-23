@@ -1,0 +1,9 @@
+{
+  "name": "blackraptor-marketing",
+  "version": "1.0.0",
+  "description": "BlackRaptor Agents — Marketing Team: a full-stack marketing department of 15 world-class specialist agents plus 9 skills, hub-and-spoke around a shared Marketing Intelligence Core context file. Encodes verified best-practice methodologies (Dillman survey design, Kohavi experimentation, IPA/Binet & Field creative effectiveness, Ehrenberg-Bass distinctive assets, Made to Stick / NN-g writing craft) plus capabilities not found in the open-source ecosystem: trademark/name research, a compliance-gated claims engine, and pricing/willingness-to-pay modeling. Hard rules baked in: no autonomous sends, posts, or spend — agents draft, humans approve.",
+  "author": {
+    "name": "BlackRaptor AI"
+  },
+  "keywords": ["marketing", "branding", "content", "seo", "paid-media", "pricing", "trademark", "compliance", "market-research", "experimentation"]
+}

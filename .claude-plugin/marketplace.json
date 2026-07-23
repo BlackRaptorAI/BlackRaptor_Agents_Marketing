@@ -1,0 +1,17 @@
+{
+  "name": "blackraptor-marketing",
+  "owner": {
+    "name": "BlackRaptor AI",
+    "url": "https://github.com/BlackRaptorAI"
+  },
+  "description": "BlackRaptor Agents — Marketing Team: a governed, full-stack marketing department for Claude Code. 15 world-class specialist agents + 9 skills, hub-and-spoke around a shared Marketing Intelligence Core, with a compliance-gated claims engine and hard human-approval rules on every send, post, and dollar.",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "blackraptor-marketing",
+      "displayName": "BlackRaptor Agents — Marketing Team",
+      "source": "./marketing",
+      "description": "Full-stack marketing department: brand-architect, market-research-analyst, copywriter, creative-director, content-strategist, seo-geo-engineer, paid-media-manager, social-community-manager, email-outbound-sequencer, video-creative-producer, competitive-intel-analyst, pricing-strategy-analyst, analytics-attribution-engineer, name-trademark-researcher, and the marketing-coordinator orchestrator — plus 9 skills including the compliance-claims-gate, market-research and experimentation methodology, name/trademark research, pricing/WTP modeling, content craft standards, and the excellence-pass quality discipline. No autonomous sends, posts, or spend — agents draft, humans approve."
+    }
+  ]
+}
