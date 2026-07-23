@@ -22,7 +22,8 @@ invented.
 
 | Where | How | Status |
 |---|---|---|
-| **Claude Code** (CLI, desktop, IDE) | `claude plugin marketplace add BlackRaptorAI/BlackRaptor_Agents_Marketing` then `claude plugin install blackraptor-marketing` (user scope = every project) | ✅ Available now |
+| **Claude Code — recommended** | `claude plugin marketplace add BlackRaptorAI/BlackRaptor_Agents` then `claude plugin install blackraptor-marketing@blackraptor-ai` — installing from the main marketplace auto-pulls **blackraptor-bridge** (evidence-auditor + research-integrity + product-manager) | ✅ Available now |
+| **Claude Code — this repo directly** | `claude plugin marketplace add BlackRaptorAI/BlackRaptor_Agents_Marketing` then `claude plugin install blackraptor-marketing` (bridge auto-installs only if the `blackraptor-ai` marketplace is also added) | ✅ Available now |
 | **Any repo, vendored** | `./install.sh <target-repo>` copies agents + skills into the repo's `.claude/` | ✅ Available now |
 | **Claude Cowork** (individual, claude.ai) | via Anthropic's official plugin catalog | ⏳ Pending curation — Cowork has no self-serve marketplace yet |
 | **Claude Cowork** (organization) | your org admin provisions it centrally (managed plugins) | ✅ Available to org admins now |
@@ -64,6 +65,18 @@ invented.
   visual/video creation
 - `excellence-pass` — the five behaviors separating top-tier output from
   merely-correct, run as the final pass on every deliverable
+
+## Research rigor — shared with the whole BlackRaptor system
+
+The `market-research` skill embeds the integrity baseline (source × evidence
+grading, citation independence, retrieval dates, no uncited statistics). For
+heavy-tier validation the team depends on the shared **blackraptor-bridge**
+plugin: the **evidence-auditor** agent (independent adversarial gate over any
+research, sizing, or claim a decision rests on), the full **research-integrity**
+skill (3-mode methodology + release gate), and **product-manager** (the
+outcome-thesis owner marketing positions against). Install via the main
+marketplace and the bridge comes automatically — the marketing team is audited
+by the same gate as the development team and the executive council.
 
 ## Why hub-and-spoke
 

@@ -1,5 +1,16 @@
 # Changelog — BlackRaptor Agents Marketing Team
 
+## 1.1.0 — 2026-07-23
+
+- **Research rigor wired to the bridge:** plugin now declares
+  `dependencies: ["blackraptor-bridge"]` (evidence-auditor adversarial research
+  gate + research-integrity skill + product-manager). Installing from the main
+  `blackraptor-ai` marketplace (where this plugin is also listed) auto-installs
+  the bridge; this repo's own marketplace allowlists `blackraptor-ai` for
+  cross-marketplace dependency resolution.
+- Submission-grade plugin metadata (displayName, homepage, repository, license)
+  and explicit `skills` path.
+
 ## 1.0.0 — 2026-07-23
 
 First public release.
